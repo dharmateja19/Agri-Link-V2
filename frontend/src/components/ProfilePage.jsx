@@ -63,7 +63,7 @@ const ProfilePage = () => {
 
 	if (loading) {
 		return (
-			<div className="min-h-screen bg-gray-100 pt-24 flex justify-center items-center">
+			<div className="min-h-screen bg-[#F8FAF5] pt-24 flex justify-center items-center">
 				<div className="flex flex-col items-center gap-3">
 					<div className="animate-spin rounded-full h-10 w-10 border-4 border-green-600 border-t-transparent"></div>
 					<p className="text-gray-500 font-medium">Loading profile information...</p>
@@ -74,7 +74,7 @@ const ProfilePage = () => {
 
 	if (!user) {
 		return (
-			<div className="min-h-screen bg-gray-100 pt-24 flex justify-center items-center">
+			<div className="min-h-screen bg-[#F8FAF5] pt-24 flex justify-center items-center">
 				<p className="text-gray-600 font-semibold">User profile not found. Please log in again.</p>
 			</div>
 		);
@@ -90,7 +90,7 @@ const ProfilePage = () => {
 	const sentContactsCount = contactRequests.length;
 
 	return (
-		<div className="min-h-screen bg-gray-100 pt-24 pb-12 px-4 sm:px-6 lg:px-8">
+		<div className="min-h-screen bg-[#F8FAF5] pt-24 pb-12 px-4 sm:px-6 lg:px-8">
 			<div className="max-w-4xl mx-auto space-y-6">
 				{/* Header & Role Badge */}
 				<div className="bg-white rounded-2xl shadow-sm border p-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
@@ -179,11 +179,6 @@ const ProfilePage = () => {
 											<p className="text-3xl font-black text-purple-900 mt-2">{approvedContactsCount}</p>
 											<p className="text-xs text-gray-500 mt-1">Contact sharing requests approved</p>
 										</div>
-										<div className="bg-yellow-50/50 border border-yellow-100 p-5 rounded-2xl sm:col-span-2">
-											<p className="text-sm font-semibold text-yellow-800">Average Rating</p>
-											<p className="text-lg font-bold text-yellow-900 mt-2">Coming Soon</p>
-											<p className="text-xs text-gray-500 mt-1">Rating summary calculated from ratings left by buyers</p>
-										</div>
 									</div>
 								) : (
 									<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -206,11 +201,6 @@ const ProfilePage = () => {
 											<p className="text-sm font-semibold text-purple-800">Contact Requests Sent</p>
 											<p className="text-3xl font-black text-purple-900 mt-2">{sentContactsCount}</p>
 											<p className="text-xs text-gray-500 mt-1">Number of contact requests made to farmers</p>
-										</div>
-										<div className="bg-gray-50 border border-gray-200 p-5 rounded-2xl sm:col-span-2">
-											<p className="text-sm font-semibold text-gray-700">Average Rating</p>
-											<p className="text-lg font-bold text-gray-800 mt-2">Coming Soon</p>
-											<p className="text-xs text-gray-500 mt-1">Rating summary calculated from ratings left by farmers</p>
 										</div>
 									</div>
 								)}

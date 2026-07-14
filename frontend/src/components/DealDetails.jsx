@@ -59,7 +59,7 @@ const DealDetails = () => {
 	const dashboardPath = userObj ? `/${userObj.role}/dashboard` : "/";
 
 	return (
-		<div className="min-h-screen bg-gray-100 pt-[80px] p-6">
+		<div className="min-h-screen bg-[#F8FAF5] pt-[80px] p-6">
 			<div className="max-w-5xl mx-auto space-y-6">
 				<div className="flex items-center justify-between">
 					<Link

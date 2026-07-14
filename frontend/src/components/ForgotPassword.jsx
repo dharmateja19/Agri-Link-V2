@@ -57,11 +57,11 @@ const ForgotPassword = () => {
     };
 
     return (
-        <div className="bg-gray-300 min-h-screen flex justify-center items-center pt-[70px]">
+        <div className="bg-[#F8FAF5] min-h-screen flex justify-center items-center pt-[70px]">
 
             <form
                 onSubmit={handleSubmit}
-                className="bg-white shadow-xl rounded-xl w-full max-w-md p-8"
+                className="bg-white border border-slate-200 shadow-sm rounded-2xl w-full max-w-md p-8"
             >
 
                 <h2 className="text-3xl font-bold text-center text-green-700 mb-6">

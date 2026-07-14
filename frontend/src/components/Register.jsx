@@ -81,10 +81,10 @@ const Register = () => {
 	};
 
 	return (
-		<div className="bg-gray-300 min-h-screen flex items-center justify-center pt-[70px]">
+		<div className="bg-[#F8FAF5] min-h-screen flex items-center justify-center pt-[70px]">
 			<form
 				onSubmit={handleSubmit}
-				className="w-full max-w-2xl bg-gray-100 p-8 rounded-lg shadow-lg"
+				className="w-full max-w-2xl bg-white p-8 rounded-2xl border border-slate-200 shadow-sm"
 			>
 				<h2 className="text-3xl font-bold text-green-700 mb-6 text-center">
 					Register to AgriLink

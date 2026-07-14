@@ -192,7 +192,7 @@ const FarmerDashboard = () => {
 	const filteredDealsList = getFilteredDeals();
 
 	return (
-		<div className="p-6 bg-gray-100 min-h-screen pt-[80px]">
+		<div className="p-6 bg-[#F8FAF5] min-h-screen pt-[80px]">
 			<div className="max-w-7xl mx-auto">
 				{/* Top Actions */}
 				<div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">

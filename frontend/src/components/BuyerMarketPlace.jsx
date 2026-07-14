@@ -372,7 +372,7 @@ const BuyerMarketplace = () => {
 	const filteredDealsList = getFilteredDeals();
 
 	return (
-		<div className="p-6 bg-gray-100 min-h-screen pt-[70px]">
+		<div className="p-6 bg-[#F8FAF5] min-h-screen pt-[70px]">
 			<div className="mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 flex-wrap">
 				<h2 className="text-2xl font-bold flex-shrink-0">
 					{showDeals ? "My Deals" : "Available Farm Products"}

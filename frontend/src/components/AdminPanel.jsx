@@ -61,7 +61,7 @@ const AdminPanel = () => {
   };
 
   return (
-    <div className="p-6 min-h-screen bg-gray-100 pt-24 pb-12">
+    <div className="p-6 min-h-screen bg-[#F8FAF5] pt-24 pb-12">
       <div className="max-w-7xl mx-auto space-y-6">
         <h2 className="text-3xl font-extrabold text-center text-green-700">Admin Dashboard</h2>
 

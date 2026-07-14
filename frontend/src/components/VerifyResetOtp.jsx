@@ -120,8 +120,8 @@ const VerifyResetOTP = () => {
 	};
 
 	return (
-		<div className="bg-gray-300 min-h-screen flex justify-center items-center pt-[70px]">
-			<div className="w-full max-w-md bg-gray-100 p-8 rounded-lg shadow-lg">
+		<div className="bg-[#F8FAF5] min-h-screen flex justify-center items-center pt-[70px]">
+			<div className="w-full max-w-md bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
 				<h2 className="text-3xl font-bold text-green-700 text-center mb-6">
 					Verify OTP
 				</h2>
